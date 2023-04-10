@@ -17,6 +17,7 @@
 		5FDCF2BA1CEBF74600188E0C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDCF2B91CEBF74600188E0C /* MobileCoreServices.framework */; };
 		5FDCF2BC1CEBF76200188E0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDCF2BB1CEBF76200188E0C /* AVFoundation.framework */; };
 		7EC0AE4829E3DAE500E2FF57 /* VIMediaCache in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */; };
+		7EC0AEA029E3FDE500E2FF57 /* VIMediaCache in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC0AE9F29E3FDE500E2FF57 /* VIMediaCache */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		5F5FA67E1CEA2D95004439D3 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 		5FDCF2B91CEBF74600188E0C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5FDCF2BB1CEBF76200188E0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7EC0AE4A29E3F10900E2FF57 /* VIMediaCache */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = VIMediaCache; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,7 @@
 				7EC0AE4829E3DAE500E2FF57 /* VIMediaCache in Frameworks */,
 				5FDCF2BC1CEBF76200188E0C /* AVFoundation.framework in Frameworks */,
 				5FDCF2BA1CEBF74600188E0C /* MobileCoreServices.framework in Frameworks */,
+				7EC0AEA029E3FDE500E2FF57 /* VIMediaCache in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +73,6 @@
 		5F5FA6021CEA2BE2004439D3 = {
 			isa = PBXGroup;
 			children = (
-				7EC0AE4929E3F10900E2FF57 /* Packages */,
 				5F5FA60D1CEA2BE2004439D3 /* VIMediaCacheDemo */,
 				5F5FA60C1CEA2BE2004439D3 /* Products */,
 				7EC0AE4629E3DAE500E2FF57 /* Frameworks */,
@@ -123,14 +123,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7EC0AE4929E3F10900E2FF57 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				7EC0AE4A29E3F10900E2FF57 /* VIMediaCache */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +141,7 @@
 			name = VIMediaCacheDemo;
 			packageProductDependencies = (
 				7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */,
+				7EC0AE9F29E3FDE500E2FF57 /* VIMediaCache */,
 			);
 			productName = VIMediaCacheDemo;
 			productReference = 5F5FA60B1CEA2BE2004439D3 /* VIMediaCacheDemo.app */;
@@ -200,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 5F5FA6021CEA2BE2004439D3;
+			packageReferences = (
+				7EC0AE9E29E3FDE500E2FF57 /* XCRemoteSwiftPackageReference "VIMediaCache" */,
+			);
 			productRefGroup = 5F5FA60C1CEA2BE2004439D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -461,9 +457,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		7EC0AE9E29E3FDE500E2FF57 /* XCRemoteSwiftPackageReference "VIMediaCache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = .;
+			requirement = {
+				branch = "swift-package";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = VIMediaCache;
+		};
+		7EC0AE9F29E3FDE500E2FF57 /* VIMediaCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EC0AE9E29E3FDE500E2FF57 /* XCRemoteSwiftPackageReference "VIMediaCache" */;
 			productName = VIMediaCache;
 		};
 /* End XCSwiftPackageProductDependency section */

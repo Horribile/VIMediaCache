@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "vimediacache",
+      "kind" : "localSourceControl",
+      "location" : "/Users/atgi/github/VIMediaCache",
+      "state" : {
+        "branch" : "swift-package",
+        "revision" : "2821a6a990fbb13cca967767cbfd582e8eda3e96"
+      }
+    }
+  ],
+  "version" : 2
+}
