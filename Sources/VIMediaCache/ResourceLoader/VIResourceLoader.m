@@ -10,7 +10,7 @@
 #import "VIMediaDownloader.h"
 #import "VIResourceLoadingRequestWorker.h"
 #import "VIContentInfo.h"
-#import "VIMediaCacheWorker.h"
+#import "../Cache/VIMediaCacheWorker.h"
 
 NSString * const MCResourceLoaderErrorDomain = @"LSFilePlayerResourceLoaderErrorDomain";
 

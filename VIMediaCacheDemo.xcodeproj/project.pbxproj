@@ -3,31 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2836BD1D96548E000910CA /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B41D96548E000910CA /* VICacheAction.m */; };
-		5F2836BE1D96548E000910CA /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B61D96548E000910CA /* VICacheConfiguration.m */; };
-		5F2836BF1D96548E000910CA /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B81D96548E000910CA /* VICacheManager.m */; };
-		5F2836C01D96548E000910CA /* VICacheSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836BA1D96548E000910CA /* VICacheSessionManager.m */; };
-		5F2836C11D96548E000910CA /* VIMediaCacheWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836BC1D96548E000910CA /* VIMediaCacheWorker.m */; };
 		5F5FA6101CEA2BE2004439D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FA60F1CEA2BE2004439D3 /* main.m */; };
 		5F5FA6131CEA2BE2004439D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FA6121CEA2BE2004439D3 /* AppDelegate.m */; };
 		5F5FA6161CEA2BE2004439D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FA6151CEA2BE2004439D3 /* ViewController.m */; };
 		5F5FA6191CEA2BE2004439D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5FA6171CEA2BE2004439D3 /* Main.storyboard */; };
 		5F5FA61B1CEA2BE2004439D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5FA61A1CEA2BE2004439D3 /* Assets.xcassets */; };
 		5F5FA61E1CEA2BE2004439D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5FA61C1CEA2BE2004439D3 /* LaunchScreen.storyboard */; };
-		5F5FA6291CEA2BE2004439D3 /* VIMediaCacheDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FA6281CEA2BE2004439D3 /* VIMediaCacheDemoTests.m */; };
 		5F5FA67F1CEA2D95004439D3 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FA67E1CEA2D95004439D3 /* PlayerView.m */; };
-		5FC756B41FC47A4C00608495 /* NSString+VIMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC756B31FC47A4C00608495 /* NSString+VIMD5.m */; };
-		5FDCF2AE1CEBF26800188E0C /* VIContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCF2971CEBF26800188E0C /* VIContentInfo.m */; };
-		5FDCF2AF1CEBF26800188E0C /* VIMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCF2991CEBF26800188E0C /* VIMediaDownloader.m */; };
-		5FDCF2B01CEBF26800188E0C /* VIResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCF29B1CEBF26800188E0C /* VIResourceLoader.m */; };
-		5FDCF2B11CEBF26800188E0C /* VIResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCF29D1CEBF26800188E0C /* VIResourceLoaderManager.m */; };
-		5FDCF2B21CEBF26800188E0C /* VIResourceLoadingRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCF29F1CEBF26800188E0C /* VIResourceLoadingRequestWorker.m */; };
 		5FDCF2BA1CEBF74600188E0C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDCF2B91CEBF74600188E0C /* MobileCoreServices.framework */; };
 		5FDCF2BC1CEBF76200188E0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDCF2BB1CEBF76200188E0C /* AVFoundation.framework */; };
+		7EC0AE4829E3DAE500E2FF57 /* VIMediaCache in Frameworks */ = {isa = PBXBuildFile; productRef = 7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F2836B31D96548E000910CA /* VICacheAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheAction.h; sourceTree = "<group>"; };
-		5F2836B41D96548E000910CA /* VICacheAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheAction.m; sourceTree = "<group>"; };
-		5F2836B51D96548E000910CA /* VICacheConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheConfiguration.h; sourceTree = "<group>"; };
-		5F2836B61D96548E000910CA /* VICacheConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheConfiguration.m; sourceTree = "<group>"; };
-		5F2836B71D96548E000910CA /* VICacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheManager.h; sourceTree = "<group>"; };
-		5F2836B81D96548E000910CA /* VICacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheManager.m; sourceTree = "<group>"; };
-		5F2836B91D96548E000910CA /* VICacheSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheSessionManager.h; sourceTree = "<group>"; };
-		5F2836BA1D96548E000910CA /* VICacheSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheSessionManager.m; sourceTree = "<group>"; };
-		5F2836BB1D96548E000910CA /* VIMediaCacheWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaCacheWorker.h; sourceTree = "<group>"; };
-		5F2836BC1D96548E000910CA /* VIMediaCacheWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMediaCacheWorker.m; sourceTree = "<group>"; };
 		5F5FA60B1CEA2BE2004439D3 /* VIMediaCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIMediaCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5FA60F1CEA2BE2004439D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F5FA6111CEA2BE2004439D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,25 +41,11 @@
 		5F5FA61D1CEA2BE2004439D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F5FA61F1CEA2BE2004439D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F5FA6241CEA2BE2004439D3 /* VIMediaCacheDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIMediaCacheDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F5FA6281CEA2BE2004439D3 /* VIMediaCacheDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIMediaCacheDemoTests.m; sourceTree = "<group>"; };
-		5F5FA62A1CEA2BE2004439D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F5FA67D1CEA2D95004439D3 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
 		5F5FA67E1CEA2D95004439D3 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
-		5FC756B21FC47A4C00608495 /* NSString+VIMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+VIMD5.h"; sourceTree = "<group>"; };
-		5FC756B31FC47A4C00608495 /* NSString+VIMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+VIMD5.m"; sourceTree = "<group>"; };
-		5FDCF2961CEBF26800188E0C /* VIContentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIContentInfo.h; sourceTree = "<group>"; };
-		5FDCF2971CEBF26800188E0C /* VIContentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIContentInfo.m; sourceTree = "<group>"; };
-		5FDCF2981CEBF26800188E0C /* VIMediaDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaDownloader.h; sourceTree = "<group>"; };
-		5FDCF2991CEBF26800188E0C /* VIMediaDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMediaDownloader.m; sourceTree = "<group>"; };
-		5FDCF29A1CEBF26800188E0C /* VIResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoader.h; sourceTree = "<group>"; };
-		5FDCF29B1CEBF26800188E0C /* VIResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoader.m; sourceTree = "<group>"; };
-		5FDCF29C1CEBF26800188E0C /* VIResourceLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoaderManager.h; sourceTree = "<group>"; };
-		5FDCF29D1CEBF26800188E0C /* VIResourceLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoaderManager.m; sourceTree = "<group>"; };
-		5FDCF29E1CEBF26800188E0C /* VIResourceLoadingRequestWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIResourceLoadingRequestWorker.h; sourceTree = "<group>"; };
-		5FDCF29F1CEBF26800188E0C /* VIResourceLoadingRequestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIResourceLoadingRequestWorker.m; sourceTree = "<group>"; };
-		5FDCF2AD1CEBF26800188E0C /* VIMediaCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMediaCache.h; sourceTree = "<group>"; };
 		5FDCF2B91CEBF74600188E0C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5FDCF2BB1CEBF76200188E0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7EC0AE4529E3DACE00E2FF57 /* VIMediaCache */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = VIMediaCache; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC0AE4829E3DAE500E2FF57 /* VIMediaCache in Frameworks */,
 				5FDCF2BC1CEBF76200188E0C /* AVFoundation.framework in Frameworks */,
 				5FDCF2BA1CEBF74600188E0C /* MobileCoreServices.framework in Frameworks */,
 			);
@@ -103,31 +69,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F2836B21D96548E000910CA /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				5F2836B31D96548E000910CA /* VICacheAction.h */,
-				5F2836B41D96548E000910CA /* VICacheAction.m */,
-				5F2836B51D96548E000910CA /* VICacheConfiguration.h */,
-				5F2836B61D96548E000910CA /* VICacheConfiguration.m */,
-				5F2836B71D96548E000910CA /* VICacheManager.h */,
-				5F2836B81D96548E000910CA /* VICacheManager.m */,
-				5F2836B91D96548E000910CA /* VICacheSessionManager.h */,
-				5F2836BA1D96548E000910CA /* VICacheSessionManager.m */,
-				5F2836BB1D96548E000910CA /* VIMediaCacheWorker.h */,
-				5F2836BC1D96548E000910CA /* VIMediaCacheWorker.m */,
-				5FC756B21FC47A4C00608495 /* NSString+VIMD5.h */,
-				5FC756B31FC47A4C00608495 /* NSString+VIMD5.m */,
-			);
-			path = Cache;
-			sourceTree = "<group>";
-		};
 		5F5FA6021CEA2BE2004439D3 = {
 			isa = PBXGroup;
 			children = (
+				7EC0AE4429E3DACE00E2FF57 /* Packages */,
 				5F5FA60D1CEA2BE2004439D3 /* VIMediaCacheDemo */,
-				5F5FA6271CEA2BE2004439D3 /* VIMediaCacheDemoTests */,
 				5F5FA60C1CEA2BE2004439D3 /* Products */,
+				7EC0AE4629E3DAE500E2FF57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +91,6 @@
 		5F5FA60D1CEA2BE2004439D3 /* VIMediaCacheDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5FDCF2941CEBF26800188E0C /* VIMediaCache */,
 				5F5FA6111CEA2BE2004439D3 /* AppDelegate.h */,
 				5F5FA6121CEA2BE2004439D3 /* AppDelegate.m */,
 				5F5FA6141CEA2BE2004439D3 /* ViewController.h */,
@@ -169,40 +116,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5F5FA6271CEA2BE2004439D3 /* VIMediaCacheDemoTests */ = {
+		7EC0AE4429E3DACE00E2FF57 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				5F5FA6281CEA2BE2004439D3 /* VIMediaCacheDemoTests.m */,
-				5F5FA62A1CEA2BE2004439D3 /* Info.plist */,
+				7EC0AE4529E3DACE00E2FF57 /* VIMediaCache */,
 			);
-			path = VIMediaCacheDemoTests;
+			name = Packages;
 			sourceTree = "<group>";
 		};
-		5FDCF2941CEBF26800188E0C /* VIMediaCache */ = {
+		7EC0AE4629E3DAE500E2FF57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F2836B21D96548E000910CA /* Cache */,
-				5FDCF2951CEBF26800188E0C /* ResourceLoader */,
-				5FDCF2AD1CEBF26800188E0C /* VIMediaCache.h */,
 			);
-			path = VIMediaCache;
-			sourceTree = SOURCE_ROOT;
-		};
-		5FDCF2951CEBF26800188E0C /* ResourceLoader */ = {
-			isa = PBXGroup;
-			children = (
-				5FDCF2961CEBF26800188E0C /* VIContentInfo.h */,
-				5FDCF2971CEBF26800188E0C /* VIContentInfo.m */,
-				5FDCF2981CEBF26800188E0C /* VIMediaDownloader.h */,
-				5FDCF2991CEBF26800188E0C /* VIMediaDownloader.m */,
-				5FDCF29A1CEBF26800188E0C /* VIResourceLoader.h */,
-				5FDCF29B1CEBF26800188E0C /* VIResourceLoader.m */,
-				5FDCF29C1CEBF26800188E0C /* VIResourceLoaderManager.h */,
-				5FDCF29D1CEBF26800188E0C /* VIResourceLoaderManager.m */,
-				5FDCF29E1CEBF26800188E0C /* VIResourceLoadingRequestWorker.h */,
-				5FDCF29F1CEBF26800188E0C /* VIResourceLoadingRequestWorker.m */,
-			);
-			path = ResourceLoader;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +147,9 @@
 			dependencies = (
 			);
 			name = VIMediaCacheDemo;
+			packageProductDependencies = (
+				7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */,
+			);
 			productName = VIMediaCacheDemo;
 			productReference = 5F5FA60B1CEA2BE2004439D3 /* VIMediaCacheDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -264,7 +193,7 @@
 			};
 			buildConfigurationList = 5F5FA6061CEA2BE2004439D3 /* Build configuration list for PBXProject "VIMediaCacheDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -306,21 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDCF2AF1CEBF26800188E0C /* VIMediaDownloader.m in Sources */,
-				5FDCF2B21CEBF26800188E0C /* VIResourceLoadingRequestWorker.m in Sources */,
-				5F2836BE1D96548E000910CA /* VICacheConfiguration.m in Sources */,
 				5F5FA67F1CEA2D95004439D3 /* PlayerView.m in Sources */,
 				5F5FA6161CEA2BE2004439D3 /* ViewController.m in Sources */,
-				5F2836C11D96548E000910CA /* VIMediaCacheWorker.m in Sources */,
 				5F5FA6131CEA2BE2004439D3 /* AppDelegate.m in Sources */,
-				5FDCF2B01CEBF26800188E0C /* VIResourceLoader.m in Sources */,
-				5FDCF2B11CEBF26800188E0C /* VIResourceLoaderManager.m in Sources */,
-				5F2836C01D96548E000910CA /* VICacheSessionManager.m in Sources */,
 				5F5FA6101CEA2BE2004439D3 /* main.m in Sources */,
-				5FC756B41FC47A4C00608495 /* NSString+VIMD5.m in Sources */,
-				5F2836BD1D96548E000910CA /* VICacheAction.m in Sources */,
-				5F2836BF1D96548E000910CA /* VICacheManager.m in Sources */,
-				5FDCF2AE1CEBF26800188E0C /* VIContentInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5FA6291CEA2BE2004439D3 /* VIMediaCacheDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,8 +371,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZZX7396L9W;
 				INFOPLIST_FILE = VIMediaCacheDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIMediaCacheDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -467,8 +387,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZZX7396L9W;
 				INFOPLIST_FILE = VIMediaCacheDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIMediaCacheDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -479,7 +402,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VIMediaCacheDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIMediaCacheDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIMediaCacheDemo.app/VIMediaCacheDemo";
@@ -491,7 +418,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VIMediaCacheDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIMediaCacheDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIMediaCacheDemo.app/VIMediaCacheDemo";
@@ -529,6 +460,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EC0AE4729E3DAE500E2FF57 /* VIMediaCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VIMediaCache;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5F5FA6031CEA2BE2004439D3 /* Project object */;
 }

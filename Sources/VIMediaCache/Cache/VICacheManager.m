@@ -7,7 +7,7 @@
 //
 
 #import "VICacheManager.h"
-#import "VIMediaDownloader.h"
+#import "../ResourceLoader/VIMediaDownloader.h"
 #import "NSString+VIMD5.h"
 
 NSString *VICacheManagerDidUpdateCacheNotification = @"VICacheManagerDidUpdateCacheNotification";

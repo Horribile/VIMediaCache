@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "VIContentInfo.h"
+#import "../ResourceLoader/VIContentInfo.h"
 
 @interface VICacheConfiguration : NSObject <NSCopying>
 

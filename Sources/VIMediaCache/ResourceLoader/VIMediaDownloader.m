@@ -6,14 +6,8 @@
 //  Copyright © 2016 Vito. All rights reserved.
 //
 
-#import "VIMediaDownloader.h"
-#import "VIContentInfo.h"
+#import <VIMediaCache.h>
 #import <MobileCoreServices/MobileCoreServices.h>
-#import "VICacheSessionManager.h"
-
-#import "VIMediaCacheWorker.h"
-#import "VICacheManager.h"
-#import "VICacheAction.h"
 
 #pragma mark - Class: VIURLSessionDelegateObject
 
