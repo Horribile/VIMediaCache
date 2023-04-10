@@ -45,7 +45,7 @@
 		5F5FA67E1CEA2D95004439D3 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 		5FDCF2B91CEBF74600188E0C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5FDCF2BB1CEBF76200188E0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7EC0AE4529E3DACE00E2FF57 /* VIMediaCache */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = VIMediaCache; sourceTree = "<group>"; };
+		7EC0AE4A29E3F10900E2FF57 /* VIMediaCache */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = VIMediaCache; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		5F5FA6021CEA2BE2004439D3 = {
 			isa = PBXGroup;
 			children = (
-				7EC0AE4429E3DACE00E2FF57 /* Packages */,
+				7EC0AE4929E3F10900E2FF57 /* Packages */,
 				5F5FA60D1CEA2BE2004439D3 /* VIMediaCacheDemo */,
 				5F5FA60C1CEA2BE2004439D3 /* Products */,
 				7EC0AE4629E3DAE500E2FF57 /* Frameworks */,
@@ -116,19 +116,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7EC0AE4429E3DACE00E2FF57 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				7EC0AE4529E3DACE00E2FF57 /* VIMediaCache */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		7EC0AE4629E3DAE500E2FF57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EC0AE4929E3F10900E2FF57 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7EC0AE4A29E3F10900E2FF57 /* VIMediaCache */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
